@@ -1,0 +1,450 @@
+@import "tailwindcss";
+
+/* =================================
+   QALIA DESIGN SYSTEM v4
+   Enhanced Typography + Visual Depth
+================================= */
+
+:root {
+  /* Core Colors */
+  --background: #F8FAFC;
+  --foreground: #0F172A;
+
+  /* Brand Colors */
+  --qalia-primary: #10B981;
+  --qalia-primary-light: #34D399;
+  --qalia-primary-dark: #059669;
+  --qalia-accent: #0EA5E9;
+  /* New: cyan accent for depth */
+  --qalia-accent-secondary: #8B5CF6;
+  /* New: purple for variety */
+
+  /* Semantic Colors */
+  --qalia-success: #10B981;
+  --qalia-warning: #F59E0B;
+  --qalia-danger: #EF4444;
+  --qalia-info: #3B82F6;
+
+  /* Gradients */
+  --qalia-gradient-primary: linear-gradient(135deg, #10B981 0%, #059669 100%);
+  --qalia-gradient-accent: linear-gradient(135deg, #10B981 0%, #0EA5E9 100%);
+  --qalia-gradient-dark: linear-gradient(135deg, #0F172A 0%, #1E293B 100%);
+  --qalia-gradient-card: linear-gradient(145deg, #FFFFFF 0%, #F8FAFC 100%);
+
+  /* Shadows with brand color */
+  --qalia-shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.04);
+  --qalia-shadow-md: 0 8px 24px rgba(0, 0, 0, 0.06);
+  --qalia-shadow-lg: 0 20px 40px rgba(0, 0, 0, 0.08);
+  --qalia-shadow-colored: 0 10px 40px rgba(16, 185, 129, 0.15);
+  --qalia-shadow-glow: 0 0 40px rgba(16, 185, 129, 0.25);
+
+  /* Glassmorphism */
+  --glass-bg: rgba(255, 255, 255, 0.85);
+  --glass-border: rgba(255, 255, 255, 0.2);
+  --glass-blur: 16px;
+
+  /* Safe Area Utilities */
+  --safe-area-top: env(safe-area-inset-top);
+  --safe-area-bottom: env(safe-area-inset-bottom);
+  --safe-area-left: env(safe-area-inset-left);
+  --safe-area-right: env(safe-area-inset-right);
+
+  /* Layout variables */
+  --bottom-nav-height: calc(4.5rem + var(--safe-area-bottom, 0px));
+}
+
+.pt-safe {
+  padding-top: var(--safe-area-top, 0px);
+}
+
+.pb-safe {
+  padding-bottom: var(--safe-area-bottom, 0px);
+}
+
+.mt-safe {
+  margin-top: var(--safe-area-top, 0px);
+}
+
+.mb-safe {
+  margin-bottom: var(--safe-area-bottom, 0px);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-qalia-primary: var(--qalia-primary);
+  /* Typography */
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+  --font-mono: var(--font-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+    --qalia-gradient-card: linear-gradient(145deg, #1E293B 0%, #0F172A 100%);
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body), system-ui, -apple-system, sans-serif;
+}
+
+/* Headings use display font */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.font-display {
+  font-family: var(--font-display), system-ui, sans-serif;
+}
+
+/* Stats and numbers use mono */
+.font-mono,
+.font-stats {
+  font-family: var(--font-mono), ui-monospace, monospace;
+}
+
+/* =================================
+   ANIMATIONS
+================================= */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes scaleInHorizontal {
+  from {
+    transform: scaleX(0);
+  }
+
+  to {
+    transform: scaleX(1);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes pulse-glow {
+
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.4);
+  }
+
+  50% {
+    box-shadow: 0 0 0 10px rgba(16, 185, 129, 0);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+/* Animation Classes */
+.animate-fadeIn {
+  animation: fadeIn 0.4s cubic-bezier(0.2, 0, 0, 1) both;
+}
+
+.animate-fadeInUp {
+  animation: fadeInUp 0.6s cubic-bezier(0.2, 0, 0, 1) both;
+}
+
+.animate-fadeInDown {
+  animation: fadeInDown 0.6s cubic-bezier(0.2, 0, 0, 1) both;
+}
+
+.animate-slideInRight {
+  animation: slideInRight 0.4s cubic-bezier(0.2, 0, 0, 1) both;
+}
+
+.animate-scaleIn {
+  animation: scaleIn 0.3s cubic-bezier(0.2, 0, 0, 1) both;
+}
+
+.animate-scaleInHorizontal {
+  animation: scaleInHorizontal 0.3s cubic-bezier(0.2, 0, 0, 1) both;
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 2s infinite;
+}
+
+/* Stagger delays for lists */
+.stagger-1 {
+  animation-delay: 0.05s;
+}
+
+.stagger-2 {
+  animation-delay: 0.1s;
+}
+
+.stagger-3 {
+  animation-delay: 0.15s;
+}
+
+.stagger-4 {
+  animation-delay: 0.2s;
+}
+
+.stagger-5 {
+  animation-delay: 0.25s;
+}
+
+.stagger-6 {
+  animation-delay: 0.3s;
+}
+
+.stagger-7 {
+  animation-delay: 0.35s;
+}
+
+.stagger-8 {
+  animation-delay: 0.4s;
+}
+
+/* =================================
+   CONTENT VISIBILITY (rendering-content-visibility)
+   Skip rendering of off-screen items for better scroll performance
+================================= */
+
+.list-item-optimized {
+  content-visibility: auto;
+  contain-intrinsic-size: 0 80px;
+  /* Estimated height for meal cards */
+}
+
+.chat-message-optimized {
+  content-visibility: auto;
+  contain-intrinsic-size: 0 60px;
+  /* Estimated height for chat bubbles */
+}
+
+/* =================================
+   SCROLLBAR
+================================= */
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* =================================
+   BUTTON UTILITIES
+================================= */
+
+.btn-kinetic {
+  transition: all 0.4s cubic-bezier(0.2, 0, 0, 1);
+}
+
+.btn-kinetic:active {
+  transform: scale(0.96);
+}
+
+/* =================================
+   REVEAL ANIMATION (Intersection Observer)
+================================= */
+
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 1s cubic-bezier(0.2, 0, 0, 1);
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* =================================
+   ORBS (Landing Page)
+================================= */
+
+.orb {
+  position: fixed;
+  width: clamp(400px, 60vw, 800px);
+  height: clamp(400px, 60vw, 800px);
+  border-radius: 50%;
+  filter: blur(120px);
+  z-index: -1;
+  opacity: 0.08;
+  pointer-events: none;
+}
+
+.orb-primary {
+  background: var(--qalia-primary);
+  top: -10%;
+  right: -10%;
+}
+
+.orb-dark {
+  background: #0F172A;
+  bottom: -10%;
+  left: -10%;
+}
+
+/* =================================
+   CARDS
+================================= */
+
+.card-qalia {
+  padding: 2.5rem;
+  background: var(--qalia-gradient-card);
+  border-radius: 32px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: var(--qalia-shadow-sm);
+  transition: all 0.4s cubic-bezier(0.2, 0, 0, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.card-qalia::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.8), transparent);
+}
+
+.card-qalia:hover {
+  border-color: rgba(16, 185, 129, 0.15);
+  transform: translateY(-4px);
+  box-shadow: var(--qalia-shadow-md);
+}
+
+/* Glass card variant */
+.card-glass {
+  background: var(--glass-bg);
+  backdrop-filter: blur(var(--glass-blur));
+  border: 1px solid var(--glass-border);
+  border-radius: 24px;
+}
+
+/* Accent glow card */
+.card-accent {
+  position: relative;
+}
+
+.card-accent::after {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  background: var(--qalia-gradient-accent);
+  border-radius: inherit;
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.card-accent:hover::after {
+  opacity: 0.1;
+}
+
+/* Dark card variant */
+.card-dark {
+  background: var(--qalia-gradient-dark);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* =================================
+   KILI RESPONSE MARKDOWN
+================================= */
+
+.kili-response-content h1,
+.kili-response-content h2,
+.kili-response-content h3 {
+  font-weight: 700;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.kili-response-content ul,
+.kili-response-content ol {
+  padding-left: 1.5rem;
+  margin: 0.5rem 0;
+}
+
+.kili-response-content li {
+  margin: 0.25rem 0;
+}
+
+.kili-response-content code {
+  background: rgba(0, 0, 0, 0.05);
+  padding: 0.125rem 0.25rem;
+  border-radius: 4px;
+  font-size: 0.875em;
+}
+
+.kili-response-content strong {
+  font-weight: 700;
+}

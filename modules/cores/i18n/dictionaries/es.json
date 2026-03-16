@@ -1,0 +1,547 @@
+{
+    "common": {
+        "loading": "Cargando...",
+        "error": "Error",
+        "save": "Guardar",
+        "cancel": "Cancelar",
+        "back": "Volver",
+        "next": "Siguiente",
+        "or": "o"
+    },
+    "nav": {
+        "login": "Iniciar Sesión",
+        "signup": "Crear Cuenta",
+        "logout": "Cerrar Sesión"
+    },
+    "landing": {
+        "hero": {
+            "badge": "Análisis de comida + Coach IA",
+            "title": "La forma más honesta de entender tu comida.",
+            "description": "Sube una foto de tu comida y Qalia te muestra las calorías, proteínas, carbos y grasas. Si configuraste alergias o restricciones, te lo recordará.",
+            "cta": "Probar Gratis"
+        },
+        "howItWorks": {
+            "title": "Así funciona Qalia",
+            "step1": {
+                "title": "1. Toma una foto",
+                "description": "O describe tu comida por voz. Qalia entiende \"tacos de carnitas con guacamole\"."
+            },
+            "step2": {
+                "title": "2. IA analiza tu plato",
+                "description": "En segundos ves: ingredientes, calorías, proteínas, carbos, grasas. Y si hay algo peligroso para ti."
+            },
+            "step3": {
+                "title": "3. Kili te orienta",
+                "description": "Pregunta lo que quieras: \"¿Qué ceno con lo que me queda de calorías?\" Kili ya conoce tu día."
+            }
+        },
+        "features": {
+            "badge": "Qué hace Qalia por ti",
+            "title": "No es un contador de calorías genérico.",
+            "subtitle": "Qalia se adapta a tu cuerpo, tu objetivo y tu historial. No te pregunta lo que ya sabe.",
+            "photoAnalysis": {
+                "badge": "Análisis de foto",
+                "title": "Desglose de cada ingrediente",
+                "description": "Sube una foto de tu comida. La IA estima los componentes del plato: proteínas, grasas, carbohidratos. Ves los macros aproximados basados en ingredientes reconocidos."
+            },
+            "alerts": {
+                "badge": "Alertas personalizadas",
+                "title": "Recordatorios sobre tus restricciones",
+                "description": "Si configuraste alergias (maní, lácteos, gluten...) Qalia te muestra un aviso cuando detecta posibles ingredientes relacionados en tu plato."
+            },
+            "kiliCoach": {
+                "badge": "Kili Coach",
+                "title": "Tu asistente de nutrición IA",
+                "description": "Kili conoce tu historial del día: calorías registradas, objetivo configurado y comidas anteriores. Pregúntale lo que quieras sobre tu alimentación."
+            },
+            "goals": {
+                "badge": "Metas personalizadas",
+                "title": "Objetivos basados en tu perfil",
+                "description": "Con tu peso, altura, edad y nivel de actividad, Qalia sugiere macros diarios orientativos. Tú decides si los ajustas según tus necesidades."
+            }
+        },
+        "testimonials": {
+            "title": "Lo que dicen usuarios reales",
+            "items": [
+                {
+                    "quote": "Por fin una app que me dice qué hay EN la comida, no solo las calorías. Descubrí que mi ensalada del trabajo tenía más grasa que una hamburguesa.",
+                    "author": "María G."
+                },
+                {
+                    "quote": "Le pregunto a Kili '¿qué puedo cenar?' y me da opciones con las calorías exactas que me faltan. Es como tener una nutrióloga 24/7.",
+                    "author": "Carlos R."
+                }
+            ]
+        },
+        "cta": {
+            "badge": "Empieza ahora",
+            "title": "Deja de adivinar qué comes.",
+            "description": "Tu primera semana es gratis. Sin tarjeta. Sube tu primera foto y ve Qalia en acción.",
+            "button": "Crear Cuenta Gratis"
+        },
+        "footer": {
+            "privacy": "Privacidad",
+            "terms": "Términos",
+            "support": "Soporte"
+        }
+    },
+    "login": {
+        "title": "Qalia",
+        "subtitle": "Identifica ingredientes y cuida tu salud con IA.",
+        "googleButton": "Continuar con Google",
+        "emailLabel": "Email",
+        "passwordLabel": "Contraseña",
+        "submitButton": "Iniciar Sesión",
+        "loadingButton": "Iniciando sesión...",
+        "noAccount": "¿No tienes cuenta?",
+        "createAccount": "Crear cuenta"
+    },
+    "signup": {
+        "title": "Únete a Qalia",
+        "subtitle": "Crea tu cuenta y empieza a cuidar tu alimentación.",
+        "googleButton": "Continuar con Google",
+        "nameLabel": "Nombre",
+        "emailLabel": "Email",
+        "passwordLabel": "Contraseña",
+        "submitButton": "Crear Cuenta",
+        "loadingButton": "Creando cuenta...",
+        "hasAccount": "¿Ya tienes cuenta?",
+        "loginLink": "Iniciar sesión"
+    },
+    "dashboard": {
+        "loading": "Cargando datos...",
+        "scannerLoading": "Cargando escáner...",
+        "coachLoading": "Cargando coach...",
+        "errorLoading": "Error al cargar datos",
+        "tabs": {
+            "home": "Inicio",
+            "history": "Historial",
+            "scanner": "Escanear",
+            "coach": "Coach",
+            "profile": "Perfil",
+            "alacena": "Alacena"
+        },
+        "home": {
+            "greeting": "Hola",
+            "registrosLabel": "Registros",
+            "registrosValue": "comidas",
+            "synced": "Sincronizados",
+            "goalLabel": "Tu Meta",
+            "noGoal": "Sin definir",
+            "caloriesRemaining": "kcal restantes",
+            "todayProgress": "Progreso de Hoy",
+            "coachTitle": "Tu Coach AI",
+            "coachQuestion": "¿Qué has comido hoy?",
+            "photo": "Foto",
+            "voice": "Voz",
+            "text": "Texto",
+            "scanPhoto": "Escanear foto",
+            "scanVoice": "Dictar comida",
+            "alacena": "Alacena",
+            "pantryTitle": "Tu Alacena",
+            "pantryEmpty": "Escanea tu cocina para ver qué puedes cocinar",
+            "pantryScan": "📸 Alacena",
+            "pantryUpdate": "Actualizar",
+            "pantryViewAll": "Ver todo",
+            "pantryCategories": {
+                "abarrotes": "Abarrotes",
+                "congelados": "Congelados",
+                "refrigerados": "Refrigerados",
+                "frutas_verduras": "Frutas y Verduras",
+                "snacks_dulces": "Snacks y Dulces",
+                "bebidas": "Bebidas",
+                "especias_condimentos": "Especias y Condimentos",
+                "panaderia_reposteria": "Panadería y Repostería",
+                "otros": "Otros"
+            }
+        },
+        "alacena": {
+            "addIngredients": "Agregar ingredientes",
+            "selectAll": "Seleccionar todo",
+            "selected": "seleccionados",
+            "clear": "Limpiar",
+            "allCategories": "Todas",
+            "searchPlaceholder": "Busca en tu alacena...",
+            "scanNow": "¡Escanear ahora!",
+            "noResults": "No se encontraron productos",
+            "editProduct": "Editar Producto",
+            "ingredientNamePlaceholder": "Nombre del ingrediente",
+            "quantityLabel": "Cantidad",
+            "unitLabel": "Unidad",
+            "quantityPlaceholder": "Eje: 500",
+            "saveChanges": "Guardar Cambios",
+            "deleteProduct": "Eliminar Producto",
+            "deleteTitle": "¿Deseas eliminarlo?",
+            "deleteMessage1": "Vas a eliminar",
+            "deleteMessage2": "de tu inventario. Esta acción no se puede deshacer.",
+            "confirmDelete": "Sí, Eliminar",
+            "cancelDelete": "No, Mantenerlo",
+            "generating": "Generando...",
+            "generateRecipe": "Generar Receta",
+            "original": "Original",
+            "defaultUnit": "uds",
+            "unitGrams": "gramos",
+            "unitUnits": "unidades",
+            "unitMl": "ml",
+            "unitLiters": "litros",
+            "unitKg": "kg"
+        },
+        "history": {
+            "title": "Historial",
+            "noMeals": "No tienes registros aún",
+            "scanFirst": "Registrar mi primera comida",
+            "today": "Hoy"
+        },
+        "scanner": {
+            "photo": "FOTO",
+            "voice": "VOZ",
+            "text": "TEXTO",
+            "takePhoto": "Tomar Foto",
+            "chooseGallery": "Elegir de Galería",
+            "imageFormats": "JPG, PNG, WebP o HEIC",
+            "voiceTitle": "Describir por Voz",
+            "voiceDescription": "Di lo que comiste y Kili lo analizará",
+            "textPlaceholder": "Escribe lo que comiste...\n\nEjemplo: Ensalada con pollo a la plancha, aguacate, tomate cherry y aderezo de limón",
+            "analyzeButton": "Analizar Plato",
+            "textHint": "Describe tu comida con el mayor detalle posible",
+            "analyzing": "Analizando cada detalle...",
+            "analyzingQuote": "Kili está estimando porciones y calorías",
+            "analyzingStepMeal1": "Identificando ingredientes...",
+            "analyzingStepMeal2": "Estimando porciones...",
+            "analyzingStepMeal3": "Calculando calorías y macros...",
+            "analyzingStepMeal4": "Kili está revisando cada detalle...",
+            "analyzingStepMeal5": "Casi listo, ajustando valores...",
+            "analyzingStepPantry1": "Escaneando tu alacena...",
+            "analyzingStepPantry2": "Detectando ingredientes...",
+            "analyzingStepPantry3": "Estimando cantidades...",
+            "analyzingStepPantry4": "Categorizando productos...",
+            "analyzingStepPantry5": "Casi listo, organizando todo...",
+            "finalizingStep1": "Revisando tu selección...",
+            "finalizingStep2": "Recalibrando con tu perfil...",
+            "finalizingStep3": "Kili prepara tu consejo personalizado...",
+            "finalizingStep4": "Ajustando macros a tu objetivo...",
+            "finalizingStep5": "¡Listo! Preparando resultados...",
+            "saveButton": "✓ Guardar en mi Historial",
+            "savingButton": "Sincronizando...",
+            "discardButton": "Descartar análisis",
+            "pendingSave": "Registro pendiente de guardar",
+            "cancel": "Cancelar",
+            "frameYourPlate": "Encuadra tu plato",
+            "portionTitle": "¿Qué tamaño tiene tu porción?",
+            "portionSubtitle": "Selecciona el tamaño de plato más parecido al tuyo.",
+            "portionSmall": "Pequeña",
+            "portionMedium": "Normal",
+            "portionLarge": "Grande",
+            "portionExtraLarge": "Muy Grande",
+            "portionSmallPlate": "~15 cm",
+            "portionMediumPlate": "~20 cm",
+            "portionLargePlate": "~25 cm",
+            "portionExtraLargePlate": "~30 cm",
+            "portionSmallGrams": "200-300g",
+            "portionMediumGrams": "300-450g",
+            "portionLargeGrams": "450-600g",
+            "portionExtraLargeGrams": "600g+",
+            "portionSmallComparison": "Plato de postre",
+            "portionMediumComparison": "Plato estándar",
+            "portionLargeComparison": "Plato de restaurante",
+            "portionExtraLargeComparison": "Bandeja o bufet",
+            "portionTip": "Tip: Un puño cerrado ≈ 150g de arroz, la palma de tu mano ≈ 85g de proteína.",
+            "analyzePortion": "Analizar porción",
+            "previewAlt": "Vista previa de tu comida",
+            "speakNowIos": "Habla ahora... Se detendrá automáticamente",
+            "speakNow": "Habla ahora... Di lo que comiste",
+            "pressToStart": "Presiona el botón para empezar",
+            "stopRecording": "Detener grabación",
+            "continueRecording": "Continuar grabando",
+            "startRecording": "Iniciar grabación",
+            "reviewAndAnalyze": "✓ Revisar y analizar",
+            "micProblems": "¿Problemas con el micrófono?",
+            "useTextMode": "Usa el modo texto",
+            "didYouMean": "¿Quisiste decir?",
+            "yesAnalyze": "Sí, analizar plato",
+            "noCorrectText": "No, corregir texto",
+            "agreeWithAnalysis": "Ingredientes",
+            "editHint": "Revisa y ajusta antes del análisis.",
+            "pendingEstimate": "Pendiente de estimar",
+            "addExtra": "Agregar Extra",
+            "foodPlaceholder": "Alimento",
+            "kcalPlaceholder": "Kcal (Opcional)",
+            "addButton": "Añadir",
+            "confirmMeal": "Confirmar Plato",
+            "mealTimeTitle": "¿A qué momento corresponde?",
+            "mealTimeHint": "Kili calculará los valores nutricionales finales basándose en tu selección.",
+            "breakfast": "Desayuno",
+            "lunch": "Almuerzo",
+            "dinner": "Cena",
+            "snack": "Bocadillo",
+            "safeLabel": "SEGURO",
+            "alertLabel": "ALERTA",
+            "estimatedEnergy": "Energía Estimada",
+            "estimatedPortion": "Porción estimada",
+            "pantryTakePhoto": "Escanear Alacena",
+            "pantryVoiceTitle": "Cuéntame qué tienes",
+            "pantryTextPlaceholder": "¿Qué hay en tu cocina? (ej: 2 huevos, medio paquete de arroz...)",
+            "pantryFrameHint": "Encuadra tus ingredientes",
+            "pantryConfirm": "Actualizar Alacena",
+            "pantryEditHint": "Revisa si he detectado todos tus ingredientes correctamente.",
+            "introTitle": "¿Qué haremos hoy?",
+            "introSubtitle": "Selecciona cómo quieres usar el escáner ahora mismo",
+            "logMealOption": "Registrar Comida",
+            "logMealDescription": "Analiza tus platos y registra macros automáticamente",
+            "updatePantryOption": "Actualizar Alacena",
+            "updatePantryDescription": "Escanea ingredientes crudos para tu inventario inteligente",
+            "ingredients": "Ingredientes",
+            "kiliTip": "Consejo de Kili",
+            "noSpeechSupport": "Tu navegador no soporta reconocimiento de voz. Usa el modo texto.",
+            "micPermissionDenied": "Permiso de micrófono denegado. Por favor habilítalo en la configuración de tu navegador.",
+            "voiceErrorIos": "Error en el reconocimiento de voz. Prueba el modo texto.",
+            "cameraError": "No se pudo acceder a la cámara.",
+            "analyzeError": "Error al analizar",
+            "analyzeImageError": "Error al analizar la imagen",
+            "noFoodDetected": "No se detectó comida válida en la imagen.",
+            "noFoodInDescription": "No se detectó comida válida en esa descripción.",
+            "saveError": "Error al guardar la comida",
+            "defaultFeedback": "¡Buen progreso, sigue así!"
+        },
+        "coach": {
+            "placeholder": "Pregúntale algo a Kili...",
+            "greeting": "¡Hola! Soy Kili, tu coach nutricional. ¿En qué puedo ayudarte hoy?",
+            "title": "Soy Kili, tu coach AI",
+            "subtitle": "¿En qué puedo ayudarte hoy?",
+            "suggestion1": "Dame un consejo",
+            "suggestion2": "Analiza mi día",
+            "suggestion3": "¿Qué puedo cenar?",
+            "send": "Enviar",
+            "modeCoach": "Kili Coach",
+            "modeChef": "Kili Chef",
+            "chefTitle": "Modo Chef Activado",
+            "chefSubtitle": "Te guío paso a paso mientras cocinas",
+            "chefSuggestion1": "¿Con qué sustituyo un ingrediente?",
+            "chefSuggestion2": "¿Cómo sé si está listo?",
+            "chefSuggestion3": "Guíame paso a paso",
+            "chefPlaceholder": "Pregunta sobre esta receta...",
+            "ingredientsTitle": "Ingredientes",
+            "instructionsTitle": "Preparación",
+            "showRecipe": "Ver receta",
+            "hideRecipe": "Ocultar receta",
+            "letsStart": "¡Entendido, a cocinar!"
+        },
+        "profile": {
+            "title": "Perfil",
+            "myInfo": "Mi información",
+            "edit": "Editar",
+            "age": "Edad",
+            "ageYears": "años",
+            "gender": "Género",
+            "height": "Altura",
+            "weight": "Peso",
+            "bmiTitle": "Tu IMC",
+            "goal": "Meta",
+            "activity": "Actividad",
+            "allergies": "Alergias",
+            "dietStyle": "Estilo de dieta",
+            "logout": "Cerrar Sesión",
+            "installApp": "Instalar App",
+            "editTitle": "Editar Perfil",
+            "saveError": "Error al guardar los cambios",
+            "select": "Seleccionar",
+            "saving": "Guardando...",
+            "activityLabel": "Nivel de Actividad",
+            "calorieTarget": "🎯 Meta de Calorías",
+            "profilePicAlt": "Foto de perfil de",
+            "bmiCategories": {
+                "underweight": "Bajo peso",
+                "normal": "Normal",
+                "overweight": "Sobrepeso",
+                "obese": "Obesidad"
+            },
+            "genderOptions": {
+                "male": "Hombre",
+                "female": "Mujer",
+                "other": "Otro"
+            },
+            "activityLevels": {
+                "sedentary": "Sedentario",
+                "light": "Ligeramente activo",
+                "moderate": "Moderado",
+                "active": "Activo",
+                "very_active": "Muy activo"
+            },
+            "preferences": {
+                "title": "Preferencias",
+                "language": "Idioma de la App",
+                "theme": "Tema",
+                "themeLight": "Claro",
+                "themeDark": "Oscuro",
+                "comingSoon": "Próximamente"
+            }
+        },
+        "macros": {
+            "protein": "Proteína",
+            "carbs": "Carbohidratos",
+            "fat": "Grasas"
+        },
+        "chart": {
+            "remaining": "kcal restantes",
+            "extra": "kcal extra"
+        },
+        "goals": {
+            "lose_weight": "Perder peso",
+            "gain_muscle": "Ganar músculo",
+            "maintain": "Mantener peso",
+            "eat_healthy": "Comer saludable"
+        },
+        "skipToContent": "Saltar al contenido principal"
+    },
+    "onboarding": {
+        "welcome": {
+            "title": "Configuración de Perfil",
+            "description": "Kili te guiará para personalizar tu experiencia y alcanzar tus metas de bienestar.",
+            "startButton": "Configurar perfil"
+        },
+        "allergies": {
+            "title": "¿Tienes alguna alergia?",
+            "subtitle": "Paso opcional. Kili usará esto para alertarte sobre ingredientes peligrosos.",
+            "otherLabel": "Otras alergias",
+            "placeholder": "Ej. Fresa, Kiwi...",
+            "addAllergyButton": "Añadir",
+            "noAllergiesButton": "No tengo alergias",
+            "continueButton": "Continuar"
+        },
+        "goals": {
+            "title": "Tu objetivo principal",
+            "subtitle": "Necesitamos saber qué buscas para que Kili te asesore correctamente.",
+            "nextButton": "Siguiente"
+        },
+        "diet": {
+            "title": "Estilo de alimentación",
+            "subtitle": "Selecciona al menos uno para personalizar tus sugerencias.",
+            "continueButton": "Continuar"
+        },
+        "personal": {
+            "title": "Cuéntanos sobre ti",
+            "subtitle": "Esta información nos ayuda a personalizar tus recomendaciones.",
+            "ageLabel": "¿Cuántos años tienes?",
+            "agePlaceholder": "25",
+            "genderLabel": "Género",
+            "continueButton": "Continuar"
+        },
+        "height": {
+            "title": "¿Cuál es tu altura?",
+            "subtitle": "Usaremos esto para calcular tu índice de masa corporal.",
+            "hint": "Por favor, introduce un valor entre {min} y {max}",
+            "continueButton": "Continuar"
+        },
+        "weight": {
+            "title": "¿Cuál es tu peso?",
+            "subtitle": "Tu peso nos ayuda a calcular tus necesidades calóricas.",
+            "hint": "Por favor, introduce un valor entre {range}",
+            "continueButton": "Continuar"
+        },
+        "activity": {
+            "title": "Actividad diaria",
+            "subtitle": "Selecciona tu nivel de movimiento habitual.",
+            "nextButton": "Siguiente"
+        },
+        "targetCalories": {
+            "title": "Tu meta de calorías",
+            "subtitle": "Basado en tu perfil, puedes ajustar según tus necesidades.",
+            "nextButton": "Siguiente"
+        },
+        "finish": {
+            "title": "¡Perfil configurado!",
+            "successMessage": "He guardado tus preferencias. Ya estoy lista para analizar tus platos y darte recomendaciones 100% personalizadas.",
+            "finalizeButton": "Entrar al Dashboard"
+        },
+        "genderOptions": {
+            "male": "Hombre",
+            "female": "Mujer",
+            "other": "Otro"
+        },
+        "activityOptions": {
+            "sedentary": "Sedentario",
+            "light": "Ligeramente activo",
+            "moderate": "Moderado",
+            "active": "Activo",
+            "veryActive": "Muy activo"
+        },
+        "activityDescriptions": {
+            "sedentary": "Trabajo de oficina, poco movimiento.",
+            "light": "Caminatas cortas, poco ejercicio.",
+            "moderate": "Ejercicio 3-4 veces por semana.",
+            "active": "Entrenamiento diario intenso.",
+            "veryActive": "Atleta o trabajo físico pesado."
+        },
+        "goalOptions": {
+            "loseWeight": "Perder peso",
+            "gainMuscle": "Ganar músculo",
+            "maintain": "Mantener peso",
+            "improveEnergy": "Mejorar energía",
+            "improveDigestion": "Mejorar digestión"
+        },
+        "dietDescriptions": {
+            "omnivore": "Come de todo",
+            "vegetarian": "No come carne ni pescado",
+            "vegan": "No come productos de origen animal",
+            "pescetarian": "Come pescado pero no carne",
+            "keto": "Baja en carbohidratos, alta en grasas",
+            "glutenFree": "Evita el gluten",
+            "lactoseFree": "Evita la lactosa"
+        }
+    },
+    "bmiCard": {
+        "calculating": "Introduce tus datos para calcular tu IMC",
+        "yourBmi": "Tu IMC",
+        "yourGoal": "Tu meta",
+        "categories": {
+            "underweight": {
+                "label": "Bajo peso",
+                "message": "Tu peso está por debajo de lo recomendado. Considera aumentar tu ingesta calórica con alimentos nutritivos."
+            },
+            "normal": {
+                "label": "Peso normal",
+                "message": "¡Excelente! Tu peso está en un rango saludable. Mantén tus buenos hábitos."
+            },
+            "overweight": {
+                "label": "Sobrepeso",
+                "message": "Tu peso está ligeramente elevado. Pequeños ajustes en tu dieta pueden ayudarte."
+            },
+            "obese": {
+                "label": "Obesidad",
+                "message": "Es importante tomar acciones para mejorar tu salud. Consulta con un profesional."
+            }
+        }
+    },
+    "calorieWidget": {
+        "title": "🎯 Tu Meta de Calorías",
+        "recommended": "Recomendado",
+        "unit": "kcal/día",
+        "goalLabels": {
+            "lose": "15-20% menos que mantenimiento",
+            "gain": "10-15% más que mantenimiento",
+            "maintain": "mismo que mantenimiento",
+            "default": "basado en tu perfil"
+        },
+        "warnings": {
+            "low": "Por debajo del mínimo recomendado por la OMS ({min} kcal)",
+            "high": "Superávit muy alto. Si no es tu objetivo, consulta a un nutricionista.",
+            "safe": "Dentro del rango saludable"
+        }
+    },
+    "installPrompt": {
+        "title": "Instalar Qalia",
+        "subtitle": "Accede al instante desde tu pantalla de inicio",
+        "iosTitle": "Para instalar en tu iPhone:",
+        "iosStep1": "Toca el botón <b>Compartir</b>",
+        "iosStep2": "Pulsa en <b>Añadir a la pantalla de inicio</b>",
+        "gotIt": "Entendido",
+        "notNow": "Ahora no",
+        "install": "Instalar"
+    },
+    "errors": {
+        "generic": "Algo salió mal. Por favor intenta de nuevo.",
+        "network": "Error de conexión. Verifica tu internet.",
+        "unauthorized": "Sesión expirada. Por favor inicia sesión de nuevo.",
+        "notFound": "No encontrado"
+    }
+}
