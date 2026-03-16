@@ -64,3 +64,13 @@ The project uses Supabase CLI for database migrations and schema pushes. Check `
 
 ## 📄 License
 This project is subject to the GNU General Public License v3. See the `LICENSE` file for more details.
+
+## 🌟 Project Scope and Adaptability
+Qalia is currently heavily focused on **nutrition and physical wellness**. Its core database schema (meals, daily_calories), API routes, and AI interactions are tailored for tracking meals, weight generation, and acting as a nutritional coach.
+
+However, the underlying architecture (**Next.js + Supabase + Generative AI via Gemini**) is highly adaptable. By slightly modifying the database tables and AI prompts, this framework could easily be repurposed for:
+
+1. **Personal Finance Manager (Fintech AI)**: Replace meals with "daily expenses". The AI analyzes receipts, categorizes transactions, and provides financial coaching.
+2. **EdTech & Tutoring Platform**: Replace the pantry inventory with "study topics". The AI suggests daily study plans and quizzes based on mastery levels.
+3. **Fitness Tracker**: Track calories burned and workout routines rather than food intake, where the AI generates workout plans based on available home equipment.
+4. **Small Business Inventory**: Use the pantry architecture for stock management. The AI predicts restocks, analyzes sales trends, and automates purchasing recommendations.
